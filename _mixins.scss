@@ -1,0 +1,22 @@
+@mixin idleForCategories() {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin idleForProductItems() {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin hoverForCategories() {
+    box-shadow: 0px 0px 5px 5px $color2;
+    transform: scale(1.05);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin hoverForProductItems() {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    filter: brightness(50%);
+}
